@@ -1,0 +1,18 @@
+{
+  "name": "limwj-sls-deploy",
+  "version": "1.0.0",
+  "description": "Update 01 - update github with README.md Update 02 - install serverless terminal - npm install -g serverless check installation serverless -v",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^3.38.0",
+    "snyk": "^1.1281.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.3.3"
+  }
+}
