@@ -36,6 +36,7 @@ jobs:
           
 
   snyk-security:
+    if: always()
     runs-on: ubuntu-latest
     needs: npm-audit
     steps:
